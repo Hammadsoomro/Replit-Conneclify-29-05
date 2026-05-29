@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsx server/index.ts",
-    "build": "tsc && vite build",
+    "build": "npx tsc && vite build",
     "start": "node dist/index.cjs",
     "check": "tsc",
     "db:generate": "drizzle-kit generate",
