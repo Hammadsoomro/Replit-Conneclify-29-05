@@ -1,0 +1,120 @@
+2026-02-03 05:23:41.01
+ef83305f
+System
+system: received signal terminated
+2026-02-03 05:23:41.03
+ef83305f
+System
+command finished with error [node ./dist/index.cjs]: signal: terminated
+2026-02-03 05:23:41.04
+ef83305f
+System
+main done, exiting
+2026-02-03 06:02:14.61
+ef83305f
+System
+starting up user application
+2026-02-03 06:02:14.61
+ef83305f
+System
+forwarding local port 5000 to external port 80 (mapped as 1104)
+2026-02-03 06:02:14.61
+ef83305f
+System
+metasidecar: loaded enterprise status from environment is_enterprise=false
+2026-02-03 06:02:15.00
+ef83305f
+User
+memory, and will not scale past a single process.
+2026-02-03 06:02:15.00
+ef83305f
+User
+designed for a production environment, as it will leak
+2026-02-03 06:02:15.00
+ef83305f
+User
+Warning: connect.session() MemoryStore is not
+2026-02-03 06:02:15.86
+ef83305f
+User
+Database already seeded, skipping...
+2026-02-03 06:02:15.92
+ef83305f
+User
+1:02:15 AM [express] serving on port 5000
+2026-02-03 06:24:51.01
+ef83305f
+System
+system: received signal terminated
+2026-02-03 06:24:51.02
+ef83305f
+System
+command finished with error [node ./dist/index.cjs]: signal: terminated
+2026-02-03 06:24:51.11
+ef83305f
+System
+main done, exiting
+2026-02-03 06:54:09.67
+ef83305f
+System
+metasidecar: loaded enterprise status from environment is_enterprise=false
+2026-02-03 06:54:09.67
+ef83305f
+System
+starting up user application
+2026-02-03 06:54:09.67
+ef83305f
+System
+forwarding local port 5000 to external port 80 (mapped as 1104)
+2026-02-03 06:54:10.35
+ef83305f
+User
+designed for a production environment, as it will leak
+2026-02-03 06:54:10.35
+ef83305f
+User
+Warning: connect.session() MemoryStore is not
+2026-02-03 06:54:10.35
+ef83305f
+User
+memory, and will not scale past a single process.
+2026-02-03 06:54:11.19
+ef83305f
+User
+Database already seeded, skipping...
+2026-02-03 06:54:11.30
+ef83305f
+User
+1:54:11 AM [express] serving on port 5000
+2026-02-03 07:09:19.47
+ef83305f
+System
+system: received signal terminated
+2026-02-03 07:09:19.48
+ef83305f
+System
+command finished with error [node ./dist/index.cjs]: signal: terminated
+2026-02-03 07:09:19.52
+ef83305f
+System
+main done, exiting
+2026-02-03 15:26:07.62
+166d8dcb
+System
+metasidecar: loaded enterprise status from environment is_enterprise=false
+2026-02-03 15:26:07.62
+166d8dcb
+System
+starting up user application
+2026-02-03 15:26:07.62
+166d8dcb
+System
+forwarding local port 5000 to external port 80 (mapped as 1104)
+2026-02-03 15:26:08.10
+166d8dcb
+User
+memory, and will not scale past a single process.
+2026-02-03 15:26:08.10
+166d8dcb
+User
+Warning: connect.session() MemoryStore is not

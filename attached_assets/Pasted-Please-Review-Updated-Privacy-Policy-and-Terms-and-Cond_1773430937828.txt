@@ -1,0 +1,80 @@
+Please Review Updated Privacy Policy and Terms and Conditions Guidelines
+
+ 
+
+To ensure your Campaigns are approved in this vetting process, please follow these best practices when submitting new Campaigns.
+
+ 
+
+Best Practices
+Do not include forbidden use cases to avoid resulting in Campaign rejection
+
+Make sure your A2P Campaign does not involve prohibited content such as cannabis, hate speech, etc.
+
+Consistency in brand, website and sample messages
+
+ 
+
+The brand and website need to be the same that the ones you include in your sample messages.
+
+ 
+
+Consistency in sample messages and use cases
+
+ 
+
+If you register a political campaign, but your sample messages say “Your one-time password is: 123456”, your campaign will be rejected
+
+Consistency in email domain and company name
+
+ 
+
+If you register a brand as Telnyx , but you provide an email address with the gmail domain, your campaign will be rejected. This only applies to large corporations that should have dedicated email domains
+
+Submit only real, working websites
+
+If your opt in process should be via your website, but you provide a website address that does not work, your campaign will be rejected
+
+Send messages according to the brand that you registered
+
+ 
+
+If you register a brand for technology company but end up sending messages for a different customer from a construction company, your campaign will be rejected
+
+Make sure consumer opt-in is collected appropriately
+
+Ensure you send messages only to the people who really want to receive them. Please refer to the CTIA guidelines to see detailed instructions and best practices on handling consumer consent.
+
+The opt-in language needs to be available on your website if you indicated in the “message flow” field that a consumer opts into your campaign on your company website
+
+If you collect the opt int in your website, you should have something like “By providing your phone number, you agree to receive text messages from Telnyx. Message & data rates may apply. Message frequency varies.”
+
+ 
+
+Include the opt-out language in at least one of your sample messages
+
+You need to include the opt out option in your sample messages, something like “Please reply STOP to opt out”.
+
+Express Opt In
+
+Every place which requires a phone number must have opt in language as well as a checkbox. This applies to contact pages, donation pages, etc. 
+
+ 
+
+Opt in language must include consent and opt out instructions and links to Privacy Policy and Terms and Conditions
+
+Privacy Policy
+
+The privacy policy CANNOT allow for the sharing/selling of end user information to third parties. 
+
+Embedded Links/Numbers
+
+If the campaign was created with the following attributes:
+​
+Embedded Phone Number
+​
+Embedded Link
+
+ 
+
+Then the samples must contain the phone number/link. 

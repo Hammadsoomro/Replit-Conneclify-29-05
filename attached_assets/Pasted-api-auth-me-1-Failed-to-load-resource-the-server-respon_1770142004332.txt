@@ -1,0 +1,88 @@
+api/auth/me:1  Failed to load resource: the server responded with a status of 401 ()
+api/conversations:1  Failed to load resource: the server responded with a status of 401 ()
+api/dashboard/activity:1  Failed to load resource: the server responded with a status of 401 ()
+api/dashboard/stats:1  Failed to load resource: the server responded with a status of 401 ()
+index-UZBMS2I9.js:8  GET https://signal-wire-connect.replit.app/api/integrations/gateways 401 (Unauthorized)
+(anonymous) @ index-UZBMS2I9.js:8
+i @ index-UZBMS2I9.js:8
+w @ index-UZBMS2I9.js:8
+start @ index-UZBMS2I9.js:8
+fetch @ index-UZBMS2I9.js:8
+#d @ index-UZBMS2I9.js:8
+onSubscribe @ index-UZBMS2I9.js:8
+subscribe @ index-UZBMS2I9.js:8
+(anonymous) @ index-UZBMS2I9.js:8
+QA @ index-UZBMS2I9.js:6
+Dh @ index-UZBMS2I9.js:8
+cl @ index-UZBMS2I9.js:8
+aV @ index-UZBMS2I9.js:8
+Ho @ index-UZBMS2I9.js:8
+GC @ index-UZBMS2I9.js:8
+Ka @ index-UZBMS2I9.js:6
+(anonymous) @ index-UZBMS2I9.js:8
+index-UZBMS2I9.js:8  GET https://signal-wire-connect.replit.app/api/signalwire/status 401 (Unauthorized)
+(anonymous) @ index-UZBMS2I9.js:8
+i @ index-UZBMS2I9.js:8
+w @ index-UZBMS2I9.js:8
+start @ index-UZBMS2I9.js:8
+fetch @ index-UZBMS2I9.js:8
+#d @ index-UZBMS2I9.js:8
+onSubscribe @ index-UZBMS2I9.js:8
+subscribe @ index-UZBMS2I9.js:8
+(anonymous) @ index-UZBMS2I9.js:8
+QA @ index-UZBMS2I9.js:6
+Dh @ index-UZBMS2I9.js:8
+cl @ index-UZBMS2I9.js:8
+aV @ index-UZBMS2I9.js:8
+Ho @ index-UZBMS2I9.js:8
+GC @ index-UZBMS2I9.js:8
+Ka @ index-UZBMS2I9.js:6
+(anonymous) @ index-UZBMS2I9.js:8
+index-UZBMS2I9.js:8  GET https://signal-wire-connect.replit.app/api/integrations/gateways/active 401 (Unauthorized)
+(anonymous) @ index-UZBMS2I9.js:8
+i @ index-UZBMS2I9.js:8
+w @ index-UZBMS2I9.js:8
+start @ index-UZBMS2I9.js:8
+fetch @ index-UZBMS2I9.js:8
+#d @ index-UZBMS2I9.js:8
+onSubscribe @ index-UZBMS2I9.js:8
+subscribe @ index-UZBMS2I9.js:8
+(anonymous) @ index-UZBMS2I9.js:8
+QA @ index-UZBMS2I9.js:6
+Dh @ index-UZBMS2I9.js:8
+cl @ index-UZBMS2I9.js:8
+aV @ index-UZBMS2I9.js:8
+Ho @ index-UZBMS2I9.js:8
+GC @ index-UZBMS2I9.js:8
+Ka @ index-UZBMS2I9.js:6
+(anonymous) @ index-UZBMS2I9.js:8
+index-UZBMS2I9.js:8  POST https://signal-wire-connect.replit.app/api/integrations/gateways 401 (Unauthorized)
+ar @ index-UZBMS2I9.js:8
+mutationFn @ index-UZBMS2I9.js:119
+fn @ index-UZBMS2I9.js:8
+w @ index-UZBMS2I9.js:8
+start @ index-UZBMS2I9.js:8
+execute @ index-UZBMS2I9.js:8
+await in execute
+mutate @ index-UZBMS2I9.js:8
+(anonymous) @ index-UZBMS2I9.js:8
+V @ index-UZBMS2I9.js:119
+Pz @ index-UZBMS2I9.js:5
+Oz @ index-UZBMS2I9.js:5
+Az @ index-UZBMS2I9.js:5
+_A @ index-UZBMS2I9.js:5
+PA @ index-UZBMS2I9.js:5
+(anonymous) @ index-UZBMS2I9.js:5
+cx @ index-UZBMS2I9.js:8
+TO @ index-UZBMS2I9.js:5
+cy @ index-UZBMS2I9.js:5
+Hg @ index-UZBMS2I9.js:5
+Vz @ index-UZBMS2I9.js:5
+index-UZBMS2I9.js:8  GET https://signal-wire-connect.replit.app/api/conversations 401 (Unauthorized)
+(anonymous) @ index-UZBMS2I9.js:8
+i @ index-UZBMS2I9.js:8
+w @ index-UZBMS2I9.js:8
+start @ index-UZBMS2I9.js:8
+fetch @ index-UZBMS2I9.js:8
+#d @ index-UZBMS2I9.js:8
+(anonymous) @ index-UZBMS2I9.js:8

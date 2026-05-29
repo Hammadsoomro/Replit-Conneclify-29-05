@@ -1,0 +1,120 @@
+AvailablePhoneNumbers
+Use this endpoint for the AvailablePhoneNumbers method to search for available phone numbers that match your criteria.
+
+Parameters
+Parameter	Description
+AreaCode
+Optional
+Find numbers in the provided area code. Only available for numbers in US and Canada.
+Beta
+Optional
+Whether or not to specify if a number is a new SignalWire number or not. Possible values are true or false. Default is true.
+Contains
+Optional
+Find numbers based off of a pattern. Valid characters are [0-9a-zA-Z]. It is recommended to search for a pattern of at least three numbers for best results.
+ExcludeAllAddressRequired
+Optional
+Whether or not to exclude numbers that require an address anywhere in the world. Possible values are true or false, default is false.
+ExcludeForeignAddressRequired
+Optional
+Whether or not to exclude numbers that require a foreign address. Possible values are true or false, default is false.
+ExcludeLocalAddressRequired
+Optional
+Whether or not to exclude numbers that require a local address. Possible values are true or false, default is false.
+FaxEnabled
+Optional
+Whether or not a number can receive faxes. Possible values are true or false.
+InRegion
+Optional
+Limits search to same region as number.
+MmsEnabled
+Optional
+Whether or not a number can receive MMS messages. Possible values are true or false.
+SmsEnabled
+Optional
+Whether or not a number can receive SMS messages. Possible values are true or false.
+VoiceEnabled
+Optional
+Whether or not a number can receive calls. Possible values are true or false.
+Examples
+Request: Search for Numbers within Washington State
+cURL
+Node.js
+C#
+Python
+Ruby
+const { RestClient } = require('@signalwire/compatibility-api')
+const client = RestClient('YourProjectID', 'YourAuthToken', { signalwireSpaceUrl: 'example.signalwire.com' })
+
+client
+  .availablePhoneNumbers('US')
+  .local.list({
+    inRegion: 'WA',
+  })
+  .then(availablePhoneNumbers => {
+    console.log(availablePhoneNumbers);
+  });
+
+Response
+200 OK
+{
+  "uri": "/api/laml/2010-04-01/Accounts/b3877c40-da60-4998-90ad-b792e98472af/AvailablePhoneNumbers/US/Local?InRegion=WA",
+  "available_phone_numbers": [
+    {
+      "friendly_name": "253-218-6751",
+      "phone_number": "+12532186751",
+      "lata": null,
+      "rate_center": "AUBURN",
+      "latitude": null,
+      "longitude": null,
+      "region": "WA",
+      "postal_code": null,
+      "iso_country": "US",
+      "capabilities": {
+        "voice": true,
+        "SMS": true,
+        "MMS": true
+      },
+      "beta": false
+    },
+    {
+      "friendly_name": "253-218-6752",
+      "phone_number": "+12532186752",
+      "lata": null,
+      "rate_center": "AUBURN",
+      "latitude": null,
+      "longitude": null,
+      "region": "WA",
+      "postal_code": null,
+      "iso_country": "US",
+      "capabilities": {
+        "voice": true,
+        "SMS": true,
+        "MMS": true
+      },
+      "beta": false
+    }
+  ]
+}
+
+
+Request: Find Local Numbers by Number Pattern
+Find all local numbers in the United States, with area code 510, that contain the pattern '555'.
+
+cURL
+Node.js
+C#
+Python
+Ruby
+const { RestClient } = require('@signalwire/compatibility-api')
+const client = RestClient('YourProjectID', 'YourAuthToken', { signalwireSpaceUrl: 'example.signalwire.com' })
+
+client
+  .availablePhoneNumbers('US')
+  .local.list({
+    contains: '555',
+    areaCode: '510',
+  })
+  .then(availablePhoneNumbers => {
+    console.log(availablePhoneNumbers);
+  });
